@@ -16,7 +16,7 @@ function LoanForm() {
             setShowModal(false)
         }
     }
-    const btnIsDisabled = loanInputs.name === ""||loanInputs.age === ""||loanInputs.phoneNumber ==="";
+    const btnIsDisabled = loanInputs.name === ""||loanInputs.age === ""||loanInputs.phoneNumber ===""|| loanInputs.salaryRange==="";
     const {age, phoneNumber} = loanInputs
     return (
         <div className={"parent"}
